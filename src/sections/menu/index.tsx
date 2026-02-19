@@ -2,7 +2,6 @@ import NavigationFooter from "@/components/NavigationFooter";
 import Link from "next/link";
 import { FC, MutableRefObject, useRef, useState } from "react";
 import Nav from "./Nav";
-import menuImg from "../../assets/menupage.jpg";
 import Feed from "./Feed";
 
 const MenuSection: FC = () => {
@@ -24,7 +23,7 @@ const MenuSection: FC = () => {
     <section className="w-full flex flex-col lg:flex-row h-full min-h-screen">
       <div
         style={{
-          background: `url(${menuImg.src})`,
+          background: `url(/assets/menupage.jpg)`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",

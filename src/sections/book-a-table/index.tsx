@@ -2,7 +2,6 @@ import NavigationFooter from "@/components/NavigationFooter";
 import Link from "next/link";
 import moment from "moment";
 import { FC, useEffect, useState } from "react";
-import bookATableImg from "../../assets/book-a-table.jpg";
 
 const BookATableSection: FC = () => {
   const [currentTime, setCurrentTime] = useState("");
@@ -20,7 +19,7 @@ const BookATableSection: FC = () => {
     <section className="w-full flex flex-col lg:flex-row h-full min-h-screen">
       <div
         style={{
-          background: `url(${bookATableImg.src})`,
+          background: `url(/assets/book-a-table.jpg)`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}

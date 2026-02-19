@@ -1,7 +1,6 @@
 import NavigationFooter from "@/components/NavigationFooter";
 import Link from "next/link";
 import { FC } from "react";
-import menuImg from "../../assets/menupage.jpg";
 import Feed from "./Feed";
 
 const WorkshopSection: FC = () => {
